@@ -4,50 +4,58 @@ An interactive Power BI dashboard that analyzes call center data to track call v
 
 ## 📊 Project Overview
 
-This project turns raw call center data into a 4-page interactive dashboard. It helps managers quickly see how the call center is performing and where to improve.
+This project transforms raw call center data into a four-page interactive dashboard. It enables managers to quickly assess call center performance and identify areas for improvement.
 
 ## 📁 Dataset
 
 - **File:** `Call Center.csv`
 - **Records:** [number of rows]
-- **Key columns:** [e.g. Call ID, Date, Agent, Call Duration, Call Status, Satisfaction Rating, Topic, Wait Time]
+- **Key columns:** [e.g., Call ID, Date, Agent, Call Duration, Call Status, Satisfaction Rating, Topic, Wait Time]
 
 ## 🛠️ Tools Used
 
-- **Power BI Desktop** – dashboard and visuals
-- **Power Query** – data cleaning and transformation
-- **DAX** – measures and calculations (e.g. total calls, average call duration, answer rate, average satisfaction)
+- **Power BI Desktop** – Dashboard design and visuals
+- **Power Query** – Data cleaning and transformation
+- **DAX** – Measures and calculations (e.g., total calls, average call duration, answer rate, average satisfaction)
 
 ## 📈 Dashboard Pages
 
-1. **Overview** – total calls, answer rate, average duration, satisfaction
-2. **[Page 2 name]** – [what it shows]
-3. **[Page 3 name]** – [what it shows]
-4. **[Page 4 name]** – [what it shows]
+### 1. Overview
+A high-level snapshot of overall call center performance. It features KPI cards for Total Calls, Answer Rate, Average Call Duration, and Average Satisfaction Score, along with a line chart showing daily and monthly call trends.
 
-Features: slicers (filters) and page navigation buttons for easy use.
+### 2. Agent Performance
+Compares the performance of each agent, including the number of calls handled, average call duration, and customer ratings. This makes it easy to identify top-performing agents and those who may need additional support.
+
+### 3. Call Analysis
+Breaks down calls by status (Answered / Abandoned), topic or reason, and time period. It reveals the most common reasons customers call and highlights peak call hours.
+
+### 4. Customer Satisfaction
+Provides a breakdown of satisfaction ratings by topic, agent, and time period, offering insight into overall service quality.
+
+### Interactive Features
+
+- **Slicers** – Filter the data by date, agent, and topic
+- **Page Navigation Buttons** – Switch easily between dashboard pages
 
 ## 🔍 Key Insights
 
-- [Insight 1, e.g. "Peak call volume is on Mondays between 10 AM and 12 PM"]
-- [Insight 2, e.g. "X% of calls were answered, Y% were abandoned"]
-- [Insight 3, e.g. "Agent [name] has the highest satisfaction rating"]
-- [Insight 4, e.g. "Billing issues are the most common call reason"]
+- **Call Volume:** The call center handled [total calls] calls, with the highest volume on [day/month].
+- **Answer Rate:** [X]% of calls were answered, while [Y]% were abandoned, indicating room for improvement in response time.
+- **Call Duration:** The average call lasted [X] minutes, with [topic] calls taking the longest.
+- **Top Call Reason:** [Topic] was the most common reason for calls, accounting for [X]% of total volume.
+- **Agent Performance:** [Agent name] handled the most calls, while [Agent name] received the highest satisfaction rating of [X].
+- **Customer Satisfaction:** The average satisfaction score was [X]/5, with the lowest ratings linked to [topic/agent/time].
 
-## 🖼️ Screenshots
-
-![Overview Page](screenshots/page1.png)
-![Page 2](screenshots/page2.png)
-![Page 3](screenshots/page3.png)
 
 ## 📂 Files in this Repository
 
 - `Call Center Dashboard.pbix` – Power BI file
-- `Call Center.csv` – dataset
-- `screenshots/` – dashboard images
+- `Call Center.csv` – Dataset
+- `screenshots/` – Dashboard images
 
 ## 👤 Author
 
 **Amanaullah**
 Data Visualization & Business Analytics | AI Graphics Designer
-[[Your LinkedIn profile link]](https://www.linkedin.com/in/amanullah-lodhi-4a045b451/)
+
+[LinkedIn Profile](https://www.linkedin.com/in/amanullah-lodhi-4a045b451/)

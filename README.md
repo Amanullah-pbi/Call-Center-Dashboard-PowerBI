@@ -51,7 +51,7 @@ Provides a breakdown of satisfaction ratings by topic, agent, and time period, o
 
 - `Call Center Dashboard.pbix` – Power BI file
 - `Call Center.csv` – Dataset
-- `screenshots/` – Dashboard images
+- 
 
 ## 👤 Author
 
